@@ -1,9 +1,3 @@
-/**
- * @Copyright Dorabot Inc.
- * @date : 2019
- * @author : Weibin.li@dorabot.com
- * @brief :
- */
 
 #ifndef __ARM_MH50_HH__
 #define __ARM_MH50_HH__

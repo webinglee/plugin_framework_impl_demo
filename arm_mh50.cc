@@ -1,10 +1,3 @@
-/**
- * @Copyright Dorabot Inc.
- * @date : 2019
- * @author : Weibin.li@dorabot.com
- * @brief :
- */
-
 #include "arm_mh50.hh"
 
 #include <iostream>

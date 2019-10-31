@@ -1,10 +1,3 @@
-/**
- * @Copyright Dorabot Inc.
- * @date : 2019
- * @author : Weibin.li@dorabot.com
- * @brief :
- */
-
 #ifndef __BACKEND_HH__
 #define __BACKEND_HH__
 
