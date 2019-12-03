@@ -1,3 +1,10 @@
+/**
+ * @Copyright Dorabot Inc.
+ * @date : 2019
+ * @author : Weibin.li@dorabot.com
+ * @brief :
+ */
+
 #ifndef __ARM_INTERFACE_HH__
 #define __ARM_INTERFACE_HH__
 

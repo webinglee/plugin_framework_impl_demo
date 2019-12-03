@@ -1,7 +1,15 @@
+/**
+ * @Copyright Dorabot Inc.
+ * @date : 2019
+ * @author : Weibin.li@dorabot.com
+ * @brief : Dynamic load specific so filename
+ */
+
 #ifndef __DYNAMIC_LIB_HH__
 #define __DYNAMIC_LIB_HH__
 
 #include <string>
+#include <memory>
 
 namespace dr
 {
@@ -17,12 +25,9 @@ public:
 
   DynamicLib(const DynamicLib&) = delete;
   DynamicLib& operator=(const DynamicLib &) = delete;
-private:
-  void load(const std::string &filename);
-  void release();
 
-  void *handle_;
-  std::string filename_;
+private:
+  std::unique_ptr<struct DynamicLibImpl> impl_;
 };
 
 }

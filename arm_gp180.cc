@@ -1,6 +1,14 @@
+/**
+ * @Copyright Dorabot Inc.
+ * @date : 2019
+ * @author : Weibin.li@dorabot.com
+ * @brief :
+ */
+
 #include "arm_gp180.hh"
 
 #include <iostream>
+#include "class_library_helper.hh"
 
 namespace dr
 {
@@ -64,6 +72,10 @@ void* Gp180::get_traj_feedback()
 }
 
 } // namespace dr
+
+DR_BEGIN_MANIFEST(dr::IDrArm)
+DR_EXPORT_CLASS(dr::Gp180)
+DR_END_MANIFEST
 
 #include "plugin_api.hh"
 

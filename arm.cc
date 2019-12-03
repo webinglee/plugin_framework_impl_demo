@@ -1,3 +1,10 @@
+/**
+ * @Copyright Dorabot Inc.
+ * @date : 2019
+ * @author : Weibin.li@dorabot.com
+ * @brief :
+ */
+
 #include "arm.hh"
 
 #include <assert.h>

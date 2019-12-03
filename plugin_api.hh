@@ -1,3 +1,10 @@
+/**
+ * @Copyright Dorabot Inc.
+ * @date : 2019
+ * @author : Weibin.li@dorabot.com
+ * @brief :
+ */
+
 #ifndef _PLUGIN_API_HPP_
 #define _PLUGIN_API_HPP_
 
